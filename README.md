@@ -119,6 +119,9 @@ RTC زمان را ذخیره نمی‌کند	باتری CR2032 ماژول DS1307
 ضربه دوبار تشخیص داده نمی‌شود	فاصله بین دو ضربه را بیشتر یا کمتر کنید (زمان مجاز ۳۰۰ میلی‌ثانیه).
 ولتاژ باتری اشتباه نشان داده می‌شود	مقدار VOLTAGE_DIVIDER را بر اساس مقاومت‌های واقعی خود محاسبه کنید: (R1+R2)/R2.
 
+https://github.com/ARDUnia/ARDUnia-Smart-Clock/blob/main/PCB/ARDUnia_SmartClock_B.png
+https://github.com/ARDUnia/ARDUnia-Smart-Clock/blob/main/PCB/ARDUnia_SmartClock_F.png
+
 📜 مجوز
 این پروژه تحت مجوز MIT منتشر شده است. برای جزئیات بیشتر فایل LICENSE را مطالعه کنید.
 
