@@ -1,0 +1,40 @@
+# Arduino IDE
+*.ino.preprocesed
+*.ino.tmp
+build/
+.build/
+
+# Compiled files
+*.o
+*.elf
+*.hex
+
+# Libraries
+libraries/*/docs/
+libraries/*/examples/
+libraries/*/extras/
+
+# PlatformIO (اگر از آن استفاده می‌کنید)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Project specific (فایل‌های موقت خودتان)
+temp/
+backup/
