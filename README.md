@@ -6,8 +6,6 @@
 یک دستگاه چندمنظوره مبتنی بر آردوینو که با یک **کلید لمسی TTP223** کنترل می‌شود. این پروژه برای کسانی مناسب است که به دنبال یک ساعت دیجیتال با قابلیت‌های متفاوت هستند: نمایش تاریخ شمسی (جلالی)، دما و رطوبت، فاز ماه، کرونومتر دقیق و نشانگر درصد باتری – همه در یک صفحه‌نمایش OLED کوچک 128x32.
 
 ---
-https://github.com/ARDUnia/ARDUnia-Smart-Clock/blob/main/PCB/ARDUnia_SmartClock_B.png
-https://github.com/ARDUnia/ARDUnia-Smart-Clock/blob/main/PCB/ARDUnia_SmartClock_F.png
 
 ## ✨ امکانات کلیدی
 
@@ -122,7 +120,14 @@ RTC زمان را ذخیره نمی‌کند	باتری CR2032 ماژول DS1307
 ولتاژ باتری اشتباه نشان داده می‌شود	مقدار VOLTAGE_DIVIDER را بر اساس مقاومت‌های واقعی خود محاسبه کنید: (R1+R2)/R2.
 
 
-📜 مجوز
+## 📸 تصاویر (PCB)
+
+![نمای روی برد (Front)](https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_F.png)
+
+![نمای پشت برد (Back)](https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_B.png)
+
+
+## 📜 مجوز
 این پروژه تحت مجوز MIT منتشر شده است. برای جزئیات بیشتر فایل LICENSE را مطالعه کنید.
 
 👤 نویسنده
