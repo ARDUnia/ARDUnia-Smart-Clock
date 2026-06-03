@@ -24,7 +24,7 @@
 
 | عمل | زمان لمس | عملکرد در حالت ساعت | عملکرد در کرونومتر |
 |------|-----------|----------------------|----------------------|
-| تک‌ضربه کوتاه | < 1 ثانیه | چرخش بین: زمان → تاریخ → دما/رطوبت | استارت / استاپ |
+| تک‌ضربه کوتاه | < ۱ ثانیه | چرخش بین: زمان → تاریخ → دما/رطوبت | استارت / استاپ |
 | دوبار ضربه سریع | دو ضربه < ۳۰۰ میلی‌ثانیه | جابه‌جایی به کرونومتر | جابه‌جایی به ساعت |
 | نگه‌داشتن | ۱ تا ۵ ثانیه | معکوس کردن رنگ صفحه | ریست کرونومتر |
 | نگه‌داشتن طولانی | ≥ ۵ ثانیه | ریست کامل آردوینو | ریست کامل آردوینو |
@@ -118,13 +118,11 @@ RTC زمان را ذخیره نمی‌کند	باتری CR2032 ماژول DS1307
 دما و رطوبت صفر نمایش داده می‌شود	در ۲ ثانیه اول پس از راه‌اندازی، سنسور هنوز مقدار معتبری نخوانده است. چند ثانیه صبر کنید.
 ضربه دوبار تشخیص داده نمی‌شود	فاصله بین دو ضربه را بیشتر یا کمتر کنید (زمان مجاز ۳۰۰ میلی‌ثانیه).
 ولتاژ باتری اشتباه نشان داده می‌شود	مقدار VOLTAGE_DIVIDER را بر اساس مقاومت‌های واقعی خود محاسبه کنید: (R1+R2)/R2.
-markdown
+📸 تصاویر PCB
+https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_F.png
 
-## 📸 تصاویر (PCB)
+https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_B.png
 
-![نمای روی برد (Front)](https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_F.png)
-
-![نمای پشت برد (Back)](https://raw.githubusercontent.com/ARDUnia/ARDUnia-Smart-Clock/main/PCB/ARDUnia_SmartClock_B.png)
 📜 مجوز
 این پروژه تحت مجوز MIT منتشر شده است. برای جزئیات بیشتر فایل LICENSE را مطالعه کنید.
 
@@ -133,4 +131,3 @@ Hamidreza Milaninia [ARDUnia]
 https://github.com/ARDUnia
 
 تاریخ انتشار: خرداد ۱۴۰۴
-
